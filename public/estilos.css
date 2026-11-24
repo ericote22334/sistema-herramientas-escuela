@@ -1,0 +1,15 @@
+:root { --azul: #2c5d8f; --azul-claro: #e8f1f9; --verde: #3f9b6b; --fondo: #f6f8fa; }
+body { background: var(--fondo); color: #2b2f33; }
+.navbar-escuela { background: var(--azul); }
+.navbar-escuela .nav-link { color: #dce9f5; }
+.navbar-escuela .nav-link.active, .navbar-escuela .nav-link:hover { color: #fff; font-weight: 600; }
+.navbar-brand { color: #fff !important; font-weight: 600; }
+.tarjeta-dato { border: 0; border-left: 5px solid var(--azul); box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.tarjeta-dato.verde { border-left-color: var(--verde); }
+.tarjeta-dato.amarilla { border-left-color: #e0a526; }
+.btn-escuela { background: var(--azul); color: #fff; }
+.btn-escuela:hover { background: #244e78; color: #fff; }
+.login-caja { max-width: 400px; margin: 8vh auto; }
+.badge-stock-ok { background: var(--verde); }
+.badge-stock-bajo { background: #e0a526; color: #000; }
+.badge-stock-cero { background: #c0392b; }
